@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Learning"
         tools:targetApi="31">
         <activity
+            android:name=".activity_and_fragment_learning.SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity_and_fragment_learning.FirstActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
